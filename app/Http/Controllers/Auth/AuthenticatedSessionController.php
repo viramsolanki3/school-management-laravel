@@ -24,7 +24,14 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request): RedirectResponse
     {
-        $request->authenticate();
+        //$request->authenticate();
+        try {
+            $request->authenticate(); // this runs Auth::attempt() internally
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            return back()->withErrors([
+                'email' => 'Invalid email or password.',
+            ])->onlyInput('email');
+        }
 
         $request->session()->regenerate();
 
