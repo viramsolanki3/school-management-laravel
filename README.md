@@ -152,3 +152,15 @@ This project is open-sourced under the [MIT License](https://opensource.org/lice
 
 **Viram Solanki**
 GitHub: [@viramsolanki3](https://github.com/viramsolanki3)
+
+## 📸 Screenshots
+
+| Page | Screenshot |
+|------|-------------|
+| LP  | ![LP ](screenshots/lp-page.png) |
+| Admin Login | ![Admin Login](screenshots/login.png) |
+| Admin Dashboard | ![Admin Dashboard](screenshots/admin-dashboard.png) |
+| Teacher Dashboard | ![Teacher Dashboard](screenshots/teacher-dashboard.png) |
+| Create Teacher | ![Create Teacher](screenshots/add-teacher.png) |
+| Announcement Admin| ![Announcement Admin](screenshots/announcement.png) |
+| Teacher Student List| ![Teacher Student List](screenshots/teacher-student.png) |
