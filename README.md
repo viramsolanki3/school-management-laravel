@@ -134,7 +134,7 @@ Can be added via Admin or Teacher dashboard.
 
 ## 🧰 Tech Stack
 
-* **Laravel 11**
+* **Laravel 12**
 * **Blade Templates** for UI
 * **MySQL** (or any other supported DB)
 * **Bootstrap 5**
